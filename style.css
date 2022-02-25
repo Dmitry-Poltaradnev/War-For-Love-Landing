@@ -116,37 +116,37 @@ body {
   );
 }
 /* ===== */
-.controls {
-  height: 60px;
-  padding: 0 40px;
-  gap: 30px;
-  line-height: 0;
-  /* == */
-  background: #000000;
-  display: flex;
-  align-items: center;
-  height: 85px;
-  padding: 0 30px;
-  gap: 50px;
+.wrapper {
+  max-width: 975px;
 }
-.player__buttons {
-  gap: 30px;
-}
-.player__button {
+.player {
   display: flex;
-  gap: 41px;
+  justify-content: space-between;
   align-items: center;
 }
-.sbutton-scale {
+.progress__container {
+  border: 2px solid white;
+  width: 887px;
+  position: relative;
+  cursor: pointer;
+  background-color: white;
 }
-.palyer__range {
+.progress {
+  border: 2px solid #7a66cc;
+  /* width: 100px; */
 }
-.player_buttons-sound {
+.buttons {
 }
-.player_speaker {
+.btn {
+  cursor: pointer;
 }
-.player_range-sound {
+.play {
 }
+.img__src {
+  width: 40px;
+  height: 40px;
+}
+
 /* ====== */
 
 a {

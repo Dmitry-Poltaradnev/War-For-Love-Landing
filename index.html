@@ -38,42 +38,20 @@
             </div>
             <h2 class="section__title">New Single</h2>
             <span class="title__audio">War For Love</span>
-
-            <!-- =========== -->
-            <div class="controls" id="controls">
-              <div class="player__buttons">
-                <button class="player__button sbutton-scale">
-                  <img src="/svg/playBtn.svg" alt="playButton" />
-                </button>
-              </div>
-              <div class="palyer__range">
-                <input
-                  type="range"
-                  id="min"
-                  value="54"
-                  name="min"
-                  min="0"
-                  max="100"
-                />
-              </div>
-              <div class="player_buttons-sound">
-                <button class="player_speaker sbutton-scale">
-                  <img src="" alt="muteButton" />
-                </button>
-                <div class="player_range-sound">
-                  <input
-                    type="range"
-                    id="volume"
-                    value="44"
-                    name="volume"
-                    min="0"
-                    max="100"
-                  />
+            <div class="wrapper" id="controls">
+              <div class="player">
+                <audio
+                  class="audio__header"
+                  src="/audio/Bright Lights - War For Love.mp3"
+                ></audio>
+                <div class="btn play">
+                  <img class="img__src" src="/svg/play.svg" alt="play" />
+                </div>
+                <div class="progress__container">
+                  <div class="progress"></div>
                 </div>
               </div>
             </div>
-            
-            <!-- ================ -->
           </div>
         </div>
       </div>

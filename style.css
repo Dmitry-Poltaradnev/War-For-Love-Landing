@@ -123,6 +123,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 40px;
 }
 .progress__container {
   border: 2px solid white;
@@ -132,12 +133,12 @@ body {
   background-color: white;
 }
 .progress {
-  border: 2px solid #7a66cc;
-  /* width: 100px; */
+  border: 1px solid #7a66cc;
+  background-color: #7a66cc;
 }
 .buttons {
 }
-.btn {
+.btn svg {
   cursor: pointer;
 }
 .play {
@@ -190,6 +191,8 @@ a {
   font-weight: bold;
   font-size: 48px;
   line-height: 72px;
+}
+.header__title-place {
   padding-top: 313px;
   padding-bottom: 8px;
 }
@@ -207,24 +210,74 @@ a {
 .header__title {
 }
 .about {
+  padding-top: 340px;
+  padding-left: 8px;
 }
+
 .section-about-title {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  padding-bottom: 60px;
 }
 .section__about-text {
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+  width: 540px;
+  letter-spacing: 0.05px;
 }
+.section__about-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.section__about-info {
+  padding-bottom: 20px;
+}
+
 .section__about-items {
+  padding-bottom: 140px;
 }
-.aection__about-item {
+.section__about-item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  /* padding-bottom: 25px; */
+}
+.section__about-item::before {
+  content: url(svg/itemAbout.svg);
+  padding-right: 20px;
+  vertical-align: middle;
+}
+.section__about-one {
+  width: 475px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 23px;
+}
+.section__about-two {
+  width: 530px;
+  display: flex;
+  justify-content: space-between;
 }
 .section__about-foto {
 }
 .images__foto {
+  border-radius: 30px;
 }
 .news {
 }
 .section__news-text {
 }
+.section__news-text p {
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.4px;
+  width: 520px;
+}
 .line {
+  border: solid 1px color white;
 }
 .music {
 }

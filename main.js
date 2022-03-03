@@ -15,12 +15,12 @@ function loadSong(song) {
 loadSong(songs[songIndex]);
 // Play
 function playSong() {
-  imgSrc.src = "./svg/pause.svg";
+  imgSrc.src = "./svg/whiteBtn.svg";
   player.classList.add("play");
   audio.play();
 }
 function pauseSong() {
-  imgSrc.src = "./svg/play.svg";
+  imgSrc.src = "./svg/playBtn.svg";
   player.classList.remove("play");
   audio.pause();
 }

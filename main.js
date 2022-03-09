@@ -47,3 +47,5 @@ function setProgress(e) {
   audio.currentTime = (clickX / width) * duration;
 }
 progressContainer.addEventListener("click", setProgress);
+// =================== Player with playList
+

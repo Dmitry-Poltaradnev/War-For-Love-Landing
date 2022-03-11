@@ -48,4 +48,23 @@ function setProgress(e) {
 }
 progressContainer.addEventListener("click", setProgress);
 // =================== Player with playList
-
+const playerLow = document.querySelector(".playerLow"),
+  playBtnLow = document.querySelector(".play"),
+  prevBtnLow = document.querySelector(".prev"),
+  nextBtnLow = document.querySelector(".next"),
+  imgPlayLow = document.querySelector(".img__low-player");
+// Songs name
+const songsLow = [
+  "3LAU - How You Love Me (feat Bright Lights)",
+  "Bright Lights - War For Love",
+  "Pink Is Punk  Benny Benassi feat. Bright Lights - Ghost Extended Mix",
+  "Hardwell - Never Say Goodbye (feat. Dyro, Bright Lights)",
+  "Zeds Dead Dirtyphonics - Where Are You Now (feat. Bright Lights)",
+  "Zedd feat. Bright Lights - Follow You Down",
+];
+// First song
+let songIndexLow = 0;
+function loadSongLow(songLow) {
+  audio.src = `audio/${songLow}.mp3`;
+}
+loadSongLow(songsLow[songIndexLow]);

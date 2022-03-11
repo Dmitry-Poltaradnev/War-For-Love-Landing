@@ -338,8 +338,8 @@ a {
   width: 365px;
 }
 .misic__images {
-  border: 15px solid #7a66cc;
-  border-radius: 235px;
+  /* border: 15px solid #7a66cc;
+  border-radius: 235px; */
 }
 .music__audio-player {
 }
@@ -360,7 +360,6 @@ a {
   content: "0" counter(number);
   counter-increment: number;
   padding-right: 17px;
-  /* vertical-align: middle; */
   opacity: 0.5;
   font-weight: bold;
   font-size: 14px;
@@ -369,6 +368,32 @@ a {
 .track__item a:active {
   color: #7a66cc;
 }
+/* ====== Player */
+.low__button {
+  width: 40px;
+  height: 40px;
+}
+.playerLow {
+}
+.progress__containerLow {
+  border: 2px solid #ffffff;
+  max-width: 470px;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+.low__button {
+  background-color: #7a66cc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.buttonsLow {
+  display: flex;
+  justify-content: space-between;
+  max-width: 150px;
+  margin: 35px 0px;
+}
+/* ====== Player */
 .track__item a:hover {
   color: #7a66cc;
 }

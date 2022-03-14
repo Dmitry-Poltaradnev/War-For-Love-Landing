@@ -410,12 +410,30 @@ a {
 }
 .shop-item {
 }
+/* Section media */
+.media__items {
+  display: grid;
+  grid-template-columns: 285px 285px 285px 285px;
+  grid-template-rows: 260px 235px;
+  font-size: 1.6em;
+  position: relative;
+}
 .media {
+  padding-bottom: 200px;
 }
-.section__media-foto {
+.item5 {
+  grid-column: 2/4;
 }
-.media__foto {
+.title__item {
+  position: absolute;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #7a66cc;
+  bottom: 100px;
+  left: 400px;
 }
+/* ================================= */
 .tours {
 }
 .section__tours-items {

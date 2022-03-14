@@ -486,10 +486,22 @@ a {
   justify-content: space-between;
   align-items: center;
   padding-left: 40px;
-  /* padding-top: 80px; */
 }
 .contacts {
 }
+.logo__wrapper {
+  display: flex;
+}
+.logo__container {
+  margin: 0 auto;
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 19px;
+  padding-right: 14px;
+}
+
 .contacts_logo {
 }
 .contacts_info-links {
